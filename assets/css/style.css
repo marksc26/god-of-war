@@ -1,0 +1,149 @@
+html{
+    box-sizing: border-box;
+}
+
+body {
+    
+    color: white;
+    background: url(bodygow.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 17px;
+    /*text-transform: capitalize;*/
+    line-height: 1.5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+
+::selection{
+    color: red;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    border: 5px solid #0b090a;
+    box-shadow: inset 0 0 2.5px 2px #0b090a;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg, #660708, #a4161a);
+
+}
+
+header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+.lista li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 120px;
+    
+}
+
+.lista a {
+    color: white;
+}
+
+
+
+.portada {
+    margin-top: 25px;
+    margin-left: 325px;
+    margin-right: 325px;
+    width: 600px;
+    transition: 3s;
+    object-fit: cover;
+
+}
+
+.portada2{
+    margin-top: 25px;
+    margin-left: 325px;
+    margin-right: 325px;
+    width: 600px;
+    border-radius: 40px 40px 40px 40px;
+    transition: 1s;
+    object-fit: cover;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+.godIII {
+    margin-top: 25px;
+    margin-left: 325px;
+    margin-right: 325px;
+    border-radius: 40px 40px 40px 40px;
+    transition: 1s;
+    object-fit: cover;
+    width: 600px;
+
+}
+
+section h2{
+    color: red;
+    
+}
+
+.ragnarok{
+    margin-top: 25px;
+    margin-left: 325px;
+    margin-right: 325px;
+    border-radius: 40px 40px 40px 40px;
+    width: 600px;
+    transition: 1s;
+    object-fit: cover;
+}
+
+.ps5{
+    width: 400px;
+    margin-left: 50px;
+    transition: 1s;
+    object-fit: cover;
+    
+}
+
+.link-ps{
+    position: relative;
+    display:inline-block;
+    padding: 5px 15px;
+    color: white ;
+    font-size: 12px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.3s;
+    background-color: #023e8a;
+    margin-left: 170px;
+    border-radius: 30px;
+
+}
+
+.link-ps:hover{
+    background: #0077b6;
+    box-shadow: 0 0 10px #0077b6, 0 0 40px #0077b6,
+    0 0 80px #0077b6;
+}
+
+
+iframe{
+    margin-left: 400px;
+    width: 560px;
+    height: 315px;
+}
+
+
+
+
+
